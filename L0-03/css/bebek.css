@@ -1,0 +1,34 @@
+body {
+    padding-top: 20px;
+    background-color: #faf2e4;
+    margin: 0 20%;
+    font-family: sans-serif;
+}
+
+.img-class {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.head {
+    text-align: center;
+}
+
+.title {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 36pt;
+}
+
+h1 {
+    font-family: serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    border-bottom: 1px solid #57b1dc;
+    margin-top: 30px;
+}
+
+h2 {
+    color: #d1633c;
+    font-size: 1em;
+}

@@ -1,0 +1,40 @@
+@font-face {
+    font-family: MyFont;
+    src: url('fonts/hai_there.ttf');
+}
+
+p {
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-size: 14pt;
+}
+
+.container {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.right {
+    font-family: MyFont;
+    text-align: right;
+    text-justify: inter-word;
+}
+
+#wiyin {
+    text-align: center;
+    text-justify: auto;
+    color: white;
+}
+
+#wiyin:hover {
+    color: black;
+    box-shadow: inset;
+}
+
+#wiyin::after {
+    color: #a537fd;
+}
+
+.padding-contoh {
+    padding-top: 50px 50px;
+    background-color: #65c6bb;
+}
