@@ -12,15 +12,15 @@
 
 <body>
     <div class="container mt-5">
-        <form class="mb-5"></form>
+        <form class="mb-5" method="get">
         <h1>Form Pendataan</h1>
         <fieldset class="border p-4">
             <legend class="w-auto">Nama</legend>
             <div class="display-grid">
                 <input type="text" name="fname" id="fname" class="form-item form-control" placeholder="Nama Depan"
-                    autofocus required>
+                    autofocus required oninvalid="this.setCustomValidity('Mohon isi nama depan anda !')">
                 <input type="text" name="lname" id="lname" class="form-item form-control" placeholder="Nama Belakang"
-                    required>
+                    required oninvalid="this.setCustomValidity('Mohon isi nama Belakang anda !')">
             </div>
         </fieldset>
         <fieldset class="border p-4">
