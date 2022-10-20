@@ -1,0 +1,25 @@
+h1 {
+    font-size: 6em;
+    text-decoration: underline;
+}
+
+@media screen and (orientation: landscape) {
+    body {
+        background : skyblue;
+        background-image: url(../img/landscape.webp);
+    }
+    h1 {
+        text-transform: uppercase;
+    }
+    
+}
+
+@media screen and (orientation: portrait) {
+    body {
+        background-color: coral;
+        background-image: url(https://wallpapercave.com/dwp1x/wp2419342.jpg);
+    }
+    h1 {
+        text-transform: capitalize;
+    }
+}
