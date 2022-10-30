@@ -1,3 +1,9 @@
+body {
+    min-height: 100%;
+    position: relative;
+    top: 0px;
+}
+
 .social-icon, .social-icons {
     display: inline-flex;
     align-items: center;
@@ -53,4 +59,12 @@ th.custom-table-head, td {
 span.sub-text.text-center {
     font-size: 1.2rem !important;
     margin-top: .5rem;
+}
+
+small.text-muted {
+    font-size: 1em;
+}
+
+p.card-text > a {
+    font-size: 1.6vh !important;
 }
