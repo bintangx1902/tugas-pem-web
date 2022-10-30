@@ -46,7 +46,11 @@ th.custom-table-head, td {
 }
 
 #content {
-    position: relative;
-    overflow-y: scroll;
+    /* position: relative; */
+    /* overflow-y: scroll; */
 }
 
+span.sub-text.text-center {
+    font-size: 1.2rem !important;
+    margin-top: .5rem;
+}
