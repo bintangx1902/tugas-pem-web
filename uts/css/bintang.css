@@ -24,9 +24,12 @@ p {
 }
 
 a {
-    color: white !important;
     font-size: 0.8em !important;
 
+}
+
+p.social-media > a {
+    color: white !important;
 }
 
 .img-bio {
