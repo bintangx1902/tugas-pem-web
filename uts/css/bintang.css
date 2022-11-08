@@ -185,10 +185,10 @@ select {
     position: -webkit-sticky;
     position: sticky;
     background-color: #fafafa;
-    left: 12px;
     top: 0;
-    z-index: 1000;
+    z-index: 1;
     font-size: 1.2rem;
+    border-top-left-radius: 15px;
 }
 
 ul.ul-style-none {
@@ -196,5 +196,5 @@ ul.ul-style-none {
 }
 
 #sidebar .custom-menu .btn {
-    z-index: 1001;
+    z-index: -1;
 }
