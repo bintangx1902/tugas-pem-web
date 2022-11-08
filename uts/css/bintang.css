@@ -184,16 +184,17 @@ select {
 .floating-link {
     position: -webkit-sticky;
     position: sticky;
-    background-color: yellow;
+    background-color: #fafafa;
+    left: 12px;
     top: 0;
     z-index: 1000;
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 ul.ul-style-none {
     list-style: none;
 }
 
-li > a.portf-link {
-    /* background-color: white; */
+#sidebar .custom-menu .btn {
+    z-index: 1001;
 }
