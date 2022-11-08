@@ -65,12 +65,23 @@
 
         <!-- Page Content  -->
         <div id="content" class="p-4 p-md-5 pt-5">
-            <ul>
-                <li><a href="#projek" class="text-primary">Go to "Projek"</a></li>
-                <li><a href="#penghargaan" class="text-primary">Go to "Penghargaan"</a></li>
-                <li><a href="#sertif" class="text-primary">Go to "Sertifikat"</a></li>
-            </ul>
-            <h2 class="mb-4">Projek</h2>
+            <div class="floating-link">
+                <ul class="ul-style-none">
+                    <li><a href="#cv" class="text-primary portf-link">Go to "CV"</a></li>
+                    <li><a href="#projek" class="text-primary portf-link">Go to "Projek"</a></li>
+                    <li><a href="#penghargaan" class="text-primary portf-link">Go to "Penghargaan"</a></li>
+                    <li><a href="#sertif" class="text-primary portf-link">Go to "Sertifikat"</a></li>
+                </ul>
+            </div>
+
+            <h2 class="mb-4">CV</h2>
+            <div class="mx-auto mb-5" id="cv">
+                <div class="embed-responsive embed-responsive-4by3">
+                    <iframe class="embed-responsive-item "
+                        src="'https://docs.google.com/viewer?url='pem-web.netlify.app/uts/images/portf/CV Raden Ronggo Bintang Pratomo Prawirodirjo_RADEN RONGGO BINTANG.pdf'"></iframe>
+                </div>
+            </div>
+            <h2 class="mb-4">Projek</h2>  
             <div class="mx-auto mb-5" id="projek">
                 <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
@@ -84,7 +95,9 @@
                             <img src="./images/portf/old-portf.png" class="d-block w-100" alt="...">
                             <div class="carousel-caption align-self-center align-items-center">
                                 <h5 class="text-center">Web Portofolio Terdahulu</h5>
-                                <p class="text-center">Web Dinamis, backend menggunakan Django, Frontend menggunakan Bootstrap 4. <a class="text-primary" target="_blank" href="https://bintangrp19.pythonanywhere.com/">Klik disini</a> untuk melihat</p>
+                                <p class="text-center">Web Dinamis, backend menggunakan Django, Frontend menggunakan
+                                    Bootstrap 4. <a class="text-primary" target="_blank"
+                                        href="https://bintangrp19.pythonanywhere.com/">Klik disini</a> untuk melihat</p>
                             </div>
                         </div>
                         <div class="carousel-item">
@@ -92,8 +105,10 @@
                             <div class="carousel-caption align-self-center align-items-center">
                                 <h5 class="text-center">Web Projek Tugas Akhir</h5>
                                 <p class="text-center">
-                                    Web ini adalah projek akhir untuk kelulusan, yaitu membuat website yang dapat menyimpan keluhan dari seseorang. 
-                                    <a href="https://bintang19.pythonanywhere.com" target="_blank" class="text-primary">Klik disini untuk melihat lebih lanjut</a>.
+                                    Web ini adalah projek akhir untuk kelulusan, yaitu membuat website yang dapat
+                                    menyimpan keluhan dari seseorang.
+                                    <a href="https://bintang19.pythonanywhere.com" target="_blank"
+                                        class="text-primary">Klik disini untuk melihat lebih lanjut</a>.
                                 </p>
                             </div>
                         </div>
@@ -101,8 +116,11 @@
                             <img src="./images/portf/bacanuku.png" class="d-block w-100" alt="...">
                             <div class="carousel-caption align-self-center align-items-center">
                                 <h5 class="text-center">Fullstack Web untuk Perlombaan</h5>
-                                <p class="text-center">web ini berisikan buku elektronik yang bisa di upload oleh semua orang, dan semua
-                                     orang juga bisa membaca buku yang telah di unggah di web ini. <a href="https://bacabuku.pythonanywhere.com" target="_blank" class="text-primary">Lihat lebih lengkap</a></p>
+                                <p class="text-center">web ini berisikan buku elektronik yang bisa di upload oleh semua
+                                    orang, dan semua
+                                    orang juga bisa membaca buku yang telah di unggah di web ini. <a
+                                        href="https://bacabuku.pythonanywhere.com" target="_blank"
+                                        class="text-primary">Lihat lebih lengkap</a></p>
                             </div>
                         </div>
                         <div class="carousel-item">
@@ -110,9 +128,11 @@
                             <div class="carousel-caption align-self-center align-items-center">
                                 <h5 class="text-center">Web Presensi Lab. SAQ</h5>
                                 <p class="text-center">
-                                    Seperti namanya, web ini digunakan untuk merekap presensi dan nilai mahasiswa yang praktikum di lab SAQ. 
-                                    Web ini masih dalam proses pengembangan lebih lanjut. Nantikan banyak fitur lainya. 
-                                    <a href="https://saqku.zaws.net/" target="_blank" class="text-primary">Lihat web ini</a>
+                                    Seperti namanya, web ini digunakan untuk merekap presensi dan nilai mahasiswa yang
+                                    praktikum di lab SAQ.
+                                    Web ini masih dalam proses pengembangan lebih lanjut. Nantikan banyak fitur lainya.
+                                    <a href="https://saqku.zaws.net/" target="_blank" class="text-primary">Lihat web
+                                        ini</a>
                                 </p>
                             </div>
                         </div>
@@ -154,9 +174,12 @@
                             <div class="carousel-caption align-self-center align-items-center">
                                 <h5 class="text-center">2nd VR Competition by UNTAR</h5>
                                 <p class="text-center">
-                                    Game VR bebas tanpa tema yang telah ditentukan, tim berisikan 3 orang. Yang kami lakukan pertama adalah membuat 3D model dan
-                                    membuat teksture 3D menggunakan Blender. Kemudian kami memasukan aset-aset tersebut ke Unity Game Engine dan mengatur posisi pemain
-                                    serta area permainan, setelah itu baru melakukan Coding untuk game-nya. Kekurangannya adalah game yang kami buat belum menggunakan audio
+                                    Game VR bebas tanpa tema yang telah ditentukan, tim berisikan 3 orang. Yang kami
+                                    lakukan pertama adalah membuat 3D model dan
+                                    membuat teksture 3D menggunakan Blender. Kemudian kami memasukan aset-aset tersebut
+                                    ke Unity Game Engine dan mengatur posisi pemain
+                                    serta area permainan, setelah itu baru melakukan Coding untuk game-nya.
+                                    Kekurangannya adalah game yang kami buat belum menggunakan audio
                                 </p>
                             </div>
                         </div>
@@ -196,7 +219,8 @@
             <div class="mx-auto mb-5" id="sertif">
                 <div id="carouselExampleCaptionsCertificateOther" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
-                        <li data-target="#carouselExampleCaptionsCertificateOther" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleCaptionsCertificateOther" data-slide-to="0" class="active">
+                        </li>
                         <li data-target="#carouselExampleCaptionsCertificateOther" data-slide-to="1"></li>
                         <!-- <li data-target="#carouselExampleCaptionsCertificateOther" data-slide-to="2"></li> -->
                         <!-- <li data-target="#carouselExampleCaptionsCertificateOther" data-slide-to="3"></li> -->
@@ -207,7 +231,8 @@
                             <div class="carousel-caption align-self-center align-items-center">
                                 <h5 class="text-center">Sertifikat Kelas Dicoding</h5>
                                 <p class="text-center">
-                                    Sertifikat DiCoding setelah menyelesaikan kelas Pemrograman Python Pemula. Didapatkan dari beasiswa BDT 2022 Batch 2.
+                                    Sertifikat DiCoding setelah menyelesaikan kelas Pemrograman Python Pemula.
+                                    Didapatkan dari beasiswa BDT 2022 Batch 2.
                                 </p>
                             </div>
                         </div>
@@ -216,11 +241,12 @@
                             <div class="carousel-caption align-self-center align-items-center">
                                 <h5 class="text-center">Sertifikat Kelas DiCoding</h5>
                                 <p class="text-center">
-                                    Sertifikat DiCoding setelah menyelesaikan kelas Visualisasi Data. Didapatkan dari beasiswa BDT 2022 Batch 2.
+                                    Sertifikat DiCoding setelah menyelesaikan kelas Visualisasi Data. Didapatkan dari
+                                    beasiswa BDT 2022 Batch 2.
                                 </p>
                             </div>
                         </div>
-                        
+
                     </div>
                     <button class="carousel-control-prev" type="button" data-target="#carouselExampleCaptions" hidden
                         data-slide="prev">
@@ -249,8 +275,11 @@
     <script src="js/main.js"></script>
 
     <script src="./js/bintang.js"></script>
-    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-    <script type="text/javascript">document.getElementsByClassName('goog-te-combo').classList.add('form-control')</script>
+    <script type="text/javascript"
+        src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script type="text/javascript">
+        document.getElementsByClassName('goog-te-combo').classList.add('form-control')
+    </script>
 </body>
 
 </html>

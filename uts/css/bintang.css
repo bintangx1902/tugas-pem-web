@@ -8,7 +8,8 @@ body {
     top: 0px;
 }
 
-.social-icon, .social-icons {
+.social-icon,
+.social-icons {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -32,7 +33,7 @@ a {
 
 }
 
-p.social-media > a {
+p.social-media>a {
     color: white !important;
 }
 
@@ -48,13 +49,16 @@ p.social-media > a {
     font-size: 2vh;
 }
 
-table, th, td {
+table,
+th,
+td {
     border: 1px solid black !important;
     border-collapse: collapse;
     text-align: center;
 }
 
-th.custom-table-head, td {
+th.custom-table-head,
+td {
     vertical-align: middle !important;
 }
 
@@ -72,7 +76,7 @@ small.text-muted {
     font-size: 1em;
 }
 
-p.card-text > a {
+p.card-text>a {
     font-size: 1.6vh !important;
 }
 
@@ -108,28 +112,32 @@ h4.timeline-title {
     font-size: 1.05rem !important;
 }
 
-ol > li.card-text {
+ol>li.card-text {
     font-size: 1rem;
     color: black;
 }
 
-p.text-bio > a {
+p.text-bio>a {
     color: #3445b4 !important;
     font-size: 1.1rem !important;
 }
 
-p > a.text-primary {
+p>a.text-primary {
     font-size: 1rem !important;
 }
 
 @media screen and (min-width: 466px) {
-    .social-icon, .social-icons {
+
+    .social-icon,
+    .social-icons {
         margin-bottom: 1rem;
     }
 }
 
 @media screen and (min-width: 382px) {
-    .social-icon, .social-icons {
+
+    .social-icon,
+    .social-icons {
         margin-left: 10px !important;
     }
 }
@@ -149,7 +157,7 @@ ol.carousel-indicators li {
     bottom: -1rem;
 }
 
-#sidebar ul li > a {
+#sidebar ul li>a {
     font-size: 1rem !important;
 }
 
@@ -166,9 +174,26 @@ ol.carousel-indicators li {
     background-clip: padding-box;
     border: 1px solid #ced4da;
     border-radius: 0.25rem;
-    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
 
 select {
     word-wrap: normal;
+}
+
+.floating-link {
+    position: -webkit-sticky;
+    position: sticky;
+    background-color: yellow;
+    top: 0;
+    z-index: 1000;
+    font-size: 1rem;
+}
+
+ul.ul-style-none {
+    list-style: none;
+}
+
+li > a.portf-link {
+    /* background-color: white; */
 }
