@@ -8,8 +8,7 @@ body {
     top: 0px;
 }
 
-.social-icon,
-.social-icons {
+.social-icon, .social-icons {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -33,7 +32,7 @@ a {
 
 }
 
-p.social-media>a {
+p.social-media > a {
     color: white !important;
 }
 
@@ -49,9 +48,7 @@ p.social-media>a {
     font-size: 2vh;
 }
 
-table,
-th,
-td {
+table, th, td {
     border: 1px solid black !important;
     border-collapse: collapse;
     text-align: center;
@@ -157,7 +154,7 @@ ol.carousel-indicators li {
     bottom: -1rem;
 }
 
-#sidebar ul li>a {
+#sidebar ul li > a {
     font-size: 1rem !important;
 }
 
@@ -193,8 +190,4 @@ select {
 
 ul.ul-style-none {
     list-style: none;
-}
-
-#sidebar .custom-menu .btn {
-    z-index: -1;
 }
